@@ -1,0 +1,729 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	font-family: Lato, PT Sans;
+}
+header {
+	height: 90px;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+li {
+	list-style-type: none;
+}
+.wrap {
+	width: 1170px;
+	margin: auto;
+}
+.wrap-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px;
+}
+.premiumcar {
+	display: flex;
+	align-items: center;
+}
+.premium, .car {
+	font-family: Lato;
+	font-size: 14px;
+	color: white;
+}
+.car {
+	background-color: #4A90E2;
+	padding: 3px;
+	margin-left: 5px;
+	border-radius: 4px;
+}
+.nav ul {
+	width: 400px;
+	display: flex;
+	justify-content: space-between;
+	font-family: PT Sans;
+}
+.wrapsec1 {
+	width: 1170px;
+	margin: auto;
+	display: flex;
+	color: white;
+	margin-top: 30px;
+	margin-bottom: 79px;
+}
+.section1 {
+	width: 370px;
+	height: 550px;
+	margin-right: 29px;
+	background-image: url(Image_1.png);
+	color: white;
+	border-radius: 4px;
+	font-family: PT Sans;
+}
+.sectext1 {
+	width: 350px;
+	height: 540px;
+	padding: 20px;
+}
+.vehicle {
+	background-color: #4A90E2;
+	width: 62px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 4px;
+	margin-bottom: 389px;
+}
+.rickie {
+	font-size: 14px;
+}
+.one {
+	font-size: 24px;
+}
+.galery-1, .galery-2 {
+	width: 770px;
+	height: 265px;
+	display: flex;
+	justify-content: space-between;
+}
+.galery-1 {
+	margin-bottom: 29px;
+}
+.galery-1img {
+	width: 370px;
+	height: 256px;
+	background-image: url(Image_2.png);
+	border-radius: 4px;
+	padding: 20px;
+}
+.vehicle-1 {
+	background-color: #4A90E2;
+	width: 62px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 4px;
+	margin-bottom: 106px;
+	font-family: PT Sans;
+}
+.rickie-1 {
+	font-family: PT Sans;
+	font-size: 14px;
+}
+.one-1 {
+	font-family: PT Sans;
+	font-size: 20px;
+}
+
+.galery-2img {
+	width: 370px;
+	height: 256px;
+	background-image: url(Image_4.png);
+	border-radius: 4px;
+	padding: 20px;
+}
+.galery-3img {
+	width: 370px;
+	height: 256px;
+	background-image: url(Bitmap.png);
+	border-radius: 4px;
+	padding: 20px;
+}
+.galery-4img {
+	width: 370px;
+	height: 256px;
+	background-image: url(Bitmap2.png);
+	border-radius: 4px;
+	padding: 20px;
+}
+.gruop {
+	width: 1170px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+.wrap-gruop2 {
+	width: 770px;
+	height: 560px;
+	margin-bottom: 60px;
+}
+.gruop2-div {
+	width: 730px;
+	height: 249px;
+	margin: auto;
+	background-color: white;
+	position: relative;
+	bottom: 150px;
+	border-radius: 4px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	
+}
+.gruop2-text {
+	padding: 30px;
+}
+.gruop2-text p {
+	width: 614px;
+	font-family: PT Sans;
+	font-size: 14px;
+	color: #666666;
+	line-height: 24px;
+
+}
+.gruop2-text i {
+	font-family: PT Sans;
+	font-size: 14px;
+	font-weight:400;
+	color: #666666;
+	margin: 15px 0;
+}
+.gruop2-text h2 {
+	font-family: PT Sans;
+	font-size: 25px;
+	color: black;
+}
+.vehicle-gruop {
+	background-color: #4A90E2;
+	width: 62px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 4px;
+}
+.transition {
+	width: 340px;
+	height: 40px;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+.transition a {
+	color: black;
+}
+.transition-1:hover {
+	background: orange;
+	color: white;
+}
+.transition-1 {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #E5E5E5;
+	border-radius:4px;
+	font-family: PT Sans;
+}
+.transition-img {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border: 1px solid #E5E5E5;
+	border-radius:4px;
+	font-family: PT Sans;
+}
+aside {
+	width: 270px;
+	float: right;
+	font-family: PT Sans;
+}
+.saidbar1 {
+	width: 270px;
+	height: 429px;
+}
+.img-aside {
+	width: 270px;
+	height: 200px;
+} 
+.text-aside {
+	font-family: PT Sans;
+}
+.text-aside h2 {
+	font-size: 18px;
+}
+.text-aside p {
+	color: #666666;
+}
+.italic {
+	color: #999999;
+}
+.click-aside1 {
+	width: 270px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #232323;
+	border-radius: 6px;
+}
+.click-aside2 {
+	color: white;
+	text-align: center;
+	font-family: PT Sans;
+}
+.saidbar2 {
+	height: 1020px;
+}
+.aside-click {
+	background-image: url("Bitmap Copy 5.png");
+	width: 270px;
+	height: 195px;
+	padding: 10px;
+}
+.aside-click2 {
+	background-image: url("Bitmap Copy 12.png");
+	width: 270px;
+	height: 195px;
+	padding: 10px;
+}
+.aside-click3 {
+	background-image: url("Bitmap Copy 13.png");
+	width: 270px;
+	height: 195px;
+	padding: 10px;
+}
+.aside-vehicle {
+	background-color: #4A90E2;
+	width: 62px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 4px;
+	color: white;
+}
+.saidbar2-text {
+	margin-bottom: 39px;
+}
+.saidbar-inst {
+	height: 516px;
+}
+.inst {
+	display: flex;
+	justify-content: space-between;
+	width: 270px;
+	height: 130px;
+	margin-bottom: 10px;
+}
+.inst img {
+	width: 130px;
+	height: 130px;
+}
+.View-inst {
+	width: 270px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background-color: #232323;
+	border-radius: 6px;
+	color: white;
+}
+.instagram {
+	width: 119px;
+	height: 17px;
+	line-height: 17px;
+	font-size: 14px;
+	font-weight: 700;
+	margin-left: 74px;
+	padding-top: 17px;
+}
+
+.tag {
+	width: 267px;
+	height: 277px;
+	margin-bottom: 60px;
+}
+.tags {
+	width: 267px;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+}
+.tags1 {
+	width: 211px;
+	height: 30px;
+	display: flex;
+	justify-content: space-between;
+	margin: 10px;
+}
+.Business {
+	width: 84px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #EBEBEB;
+	font-size: 14px;
+	font-family: PT Sans;
+	border-radius: 4px;
+}
+.Freelance {
+	width: 91px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #EBEBEB;
+	font-size: 14px;
+	font-family: PT Sans;
+	border-radius: 4px;
+}
+.Money {
+	width: 72px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #EBEBEB;
+	font-size: 14px;
+	font-family: PT Sans;
+	border-radius: 4px;
+}
+.Experience {
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #EBEBEB;
+	font-size: 14px;
+	font-family: PT Sans;
+	border-radius: 4px;
+}
+.Lifestyle {
+	width: 82px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #EBEBEB;
+	font-size: 14px;
+	font-family: PT Sans;
+	border-radius: 4px;
+}
+.SEO {
+	width: 50px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #EBEBEB;
+	font-size: 14px;
+	font-family: PT Sans;
+	border-radius: 4px;
+}
+.Wordpress {
+	width: 98px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #EBEBEB;
+	font-size: 14px;
+	font-family: PT Sans;
+	border-radius: 4px;
+}
+.Marketing {
+	width: 93px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #EBEBEB;
+	font-size: 14px;
+	font-family: PT Sans;
+	border-radius: 4px;
+}
+.UX {
+	width: 49px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #EBEBEB;
+	font-size: 14px;
+	font-family: PT Sans;
+	border-radius: 4px;	
+}
+.Modern, .Success  {
+	width: 79px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #EBEBEB;
+	font-size: 14px;
+	font-family: PT Sans;
+	border-radius: 4px;	
+}
+.Nature {
+	width: 72px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #EBEBEB;
+	font-size: 14px;
+	font-family: PT Sans;
+	border-radius: 4px;	
+}
+.Productivity {
+	width: 104px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #EBEBEB;
+	font-size: 14px;
+	font-family: PT Sans;
+	border-radius: 4px;		
+}
+.Sales {
+	width: 97px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #EBEBEB;
+	font-size: 14px;
+	font-family: PT Sans;
+	border-radius: 4px;		
+}
+.Sell {
+	width: 53px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #EBEBEB;
+	font-size: 14px;
+	font-family: PT Sans;
+	border-radius: 4px;	
+}
+.Teamwork {
+	width: 95px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #EBEBEB;
+	font-size: 14px;
+	font-family: PT Sans;
+	border-radius: 4px;	
+}
+.Monetize {
+	width: 88px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #EBEBEB;
+	font-size: 14px;
+	font-family: PT Sans;
+	border-radius: 4px;	
+}
+.Email-newsletter {
+	width: 270px;
+	height: 279px;
+}
+.Email-newsletter p {
+	padding-bottom: 27px;
+}
+.email-p {
+	color: #666666;
+}
+.name-email, .email-news {
+	width: 270px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #FFFFFF;
+	border: 1px solid #E5E5E5;
+	border-radius: 4px;
+	color: #AEB3BB;
+	font-family: PT Sans;
+	margin-top: 15px;
+	padding-left: 15px;
+}
+.Subscribe-email {
+	width: 270px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #232323;
+	border-radius: 4px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 10px;
+	font-weight: 700;
+}
+.wrap h1 {
+	font-family: PT Sans;
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 27px;
+}
+.most-popular {
+ 	width: 1170px;
+ 	display: flex;
+ 	justify-content: space-between;
+ 	margin-bottom: 80px;
+}
+.popular {
+	width: 270px;
+	height: 300px;
+}
+.most-galery {
+	width: 270px;
+ 	height: 195px;
+	background-image: url(bmw1.png);
+	padding: 10px;
+}
+.click-bmw	{
+	background-color: #4A90E2;
+	width: 62px;
+	height: 22px;
+	line-height: 22px;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 4px;
+}
+.most-text {
+	line-height: 18px;
+}
+.most-text h4 {
+	font-family: PT Sans;
+	font-size: 20px;
+}
+.most-text i {
+	font-family: PT Sans;
+	font-size: 14px;
+	color: #666666;
+}
+.most-galery2 {
+	width: 270px;
+ 	height: 195px;
+	background-image: url(bmw2.png);
+	padding: 10px;
+}
+.most-galery3 {
+	width: 270px;
+ 	height: 195px;
+	background-image: url(bmw3.png);
+	padding: 10px;
+}
+.most-galery4 {
+	width: 270px;
+ 	height: 195px;
+	background-image: url(bmw4.png);
+	padding: 10px;
+}
+footer {
+	background-color: #171717;
+	height: 500px;
+}
+.wrap-footer {
+	width: 1170px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	padding: 30px 0;
+}
+.footer-1 {
+	width: 270px;
+	height: 66px;
+	font-family: PT Sans;
+	font-size: 14px;
+	color: white;
+}
+.footer-1 p {
+	margin-top: 28px;
+	margin-bottom: 64px;
+	line-height: 22px;
+}
+.footer-icons h2 {
+	color: white;
+	padding-bottom: 23px;
+}
+.icons {
+	width: 230px;
+	height: 34px;
+	display: flex;
+	justify-content: space-between;
+}
+.icons-img {
+	width: 34px;
+	height: 34px;
+}
+.footer-2 {
+	color: white;
+	font-family: PT Sans;
+}
+.footer-2 h2 {
+	margin-top: 0;
+}
+.recent-block {
+	display: flex;
+	width: 293px;
+	align-items: center;
+}
+.recent-block img {
+	width: 95px;
+	height: 95px;
+}
+.recent-text {
+	width: 300px;
+	padding: 0 0 15px 20px;
+}
+.recent-text h4 {
+	font-family: PT Sans;
+	font-size: 15px;
+}
+.recent-text i {
+	font-size: 14px;
+}
+.footer-3 h2 {
+	margin-top: 0;
+}
+.newsletter {
+	width: 270px;
+	height: 234px;
+}
+.newsletter h2, .Subscribe {
+	color: white;
+	font-family: PT Sans;
+	font-weight: 700;
+}
+.name, .email {
+	width: 270px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #373737;
+	border-radius: 4px;
+	color: #AEB3BB;
+	font-family: PT Sans;
+}
+.name p, .email p {
+	padding-left: 15px;
+}
+.Subscribe {
+	width: 270px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #232323;
+	border-radius: 4px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 10px;
+}
+.footer-4 {
+	width: 100%;
+	height: 94px;
+	background-color: #000000;
+	font-size: 14px;
+}
+.wrap-footer0 {
+	width: 1170px;
+	height: 94px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	line-height: 94px;
+}
+.nav {
+	display: flex;
+	justify-content: space-between;
+	width: 353px;
+	margin: 0;
+	padding: 0;
+}
